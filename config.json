@@ -1,0 +1,15 @@
+{
+  "brand": {
+    "primary": "#8C14FF",
+    "logoUrl": "https://cdn.discordapp.com/attachments/1427124759971500126/1466114149820928152/61e599b2aa75d400234d238e1736454003311blob.png?ex=697ce234&is=697b90b4&hm=adc50682d8b7536d1e4468e8070ae8a4681f4cf4fbec92194fa25ca2039ec593&"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/bentoacaiteria/"
+  },
+  "minOrder": 14.9,
+  "freightValue": 0.0,
+  "store_hours": {
+    "open": "10:00",
+    "close": "01:00"
+  }
+}
