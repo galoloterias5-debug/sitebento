@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Bento Açaíteria</title>
+
+  <link rel="dns-prefetch" href="//cdn.discordapp.com">
+  <link rel="preconnect" href="assets/img/logo.png" crossorigin>
+
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+
+<div class="container">
+  <div class="topbar">
+    <div class="brand">
+      <img class="logoImg brandLogo" src="assets/img/LOGO.png" alt="Bento Açaíteria"/>
+      <div>
+        <div class="h1" id="storeName">Bento Açaíteria</div>
+        <div class="sub" id="storeTagline">O delivery mais amado da região 🛵</div>
+      </div>
+    </div>
+    <div class="actions">
+            <a class="btn igBtn" id="igBtn" href="https://www.instagram.com/bentoacaiteria/" target="_blank" rel="noopener"><span class="igIcon"></span>Instagram</a>
+      <span class="openUntil" id="openUntil">Aberto até 01:00</span>
+<button class="btn btnPrimary" id="goCheckout">Carrinho</button>
+      <span class="badge" id="cartBadge">0 itens</span>
+    </div>
+  </div>
+
+  <div id="tabs" style="margin-top:14px"></div>
+  
+  <div class="topSellersHeader" id="topSellersHeader"><div class="tsTitle">Mais vendidos</div><div class="minPill" id="minPill">Pedido mínimo: R$ 14,90</div></div>
+  <div id="topSellers" class="topSellers"></div>
+      <div id="list"></div>
+</div>
+  <script src="./menu_data.js"></script>
+  <script src="./app.js"></script>
+  <script src="./brand.js"></script>
+
+  <div id="cartBar" class="cartBar" role="button" aria-label="Ver carrinho">
+    <div class="label">Ver carrinho</div>
+    <div class="value" id="cartBarTotal">R$ 0,00</div>
+  </div>
+
+  <div id="addPrompt" class="addPromptOverlay" aria-hidden="true">
+    <div class="addPromptSheet">
+      <div class="addPromptTitle">✅ Adicionado ao carrinho</div>
+      <div class="addPromptBtns">
+        <button class="btn btnPrimary" id="goCartBtn" type="button">Avançar para o carrinho</button>
+        <button class="btn" id="keepBuyingBtn" type="button">Continuar comprando</button>
+      </div>
+    </div>
+  </div>
+<div class="modalOverlay" id="closedModal" aria-hidden="true">
+  <div class="closedCard">
+    <div class="closedAnim" aria-hidden="true"></div>
+    <div class="closedTitle">Estamos fechados no momento</div>
+    <div class="closedSub">Funcionamento: todos os dias, das <b>10:00</b> até <b>01:00</b>.</div>
+    <button class="btn btnPrimary" id="closeClosedModal">Ver cardápio</button>
+  </div>
+</div>
+
+<div class="hoursBox" id="hoursBox">
+  <div class="hoursTitle">Horário de funcionamento</div>
+  <div class="hoursText">Segunda a segunda • 10:00 — 01:00</div>
+</div>
+
+<script src="config.js"></script>
+</body>
+</html>

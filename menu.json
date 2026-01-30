@@ -1,0 +1,744 @@
+{
+  "store": {
+    "name": "Bento Açaíteria",
+    "tagline": "O delivery mais amado da região"
+  },
+  "categories": [
+    {
+      "id": "promo_bento",
+      "name": "🔥 DEU A LOUCA NO BENTO"
+    },
+    {
+      "id": "acais_no_copo",
+      "name": "Açaís no copo"
+    },
+    {
+      "id": "barcas_bento",
+      "name": "BARCAS DO BENTO"
+    },
+    {
+      "id": "bebidas",
+      "name": "Bebidas"
+    }
+  ],
+  "optionGroups": [
+    {
+      "id": "acompanhamentos",
+      "title": "Acompanhamentos",
+      "subtitle": "Escolha 3 acompanhamentos (obrigatório)",
+      "required": true,
+      "min": 3,
+      "max": 3,
+      "options": [
+        {
+          "id": "abacaxi",
+          "name": "Abacaxi",
+          "price": 0,
+          "image": "assets/img/abacaxi.png"
+        },
+        {
+          "id": "bala_goma",
+          "name": "Bala de Goma",
+          "price": 0,
+          "image": "assets/img/bala_goma.png"
+        },
+        {
+          "id": "banana",
+          "name": "Banana",
+          "price": 0,
+          "image": "assets/img/banana.png"
+        },
+        {
+          "id": "choco_ball",
+          "name": "Choco Ball",
+          "price": 0,
+          "image": "assets/img/chocobal.png"
+        },
+        {
+          "id": "creme_branco",
+          "name": "Creme branco",
+          "price": 0,
+          "image": "assets/img/creme_branco.png"
+        },
+        {
+          "id": "creme_avela",
+          "name": "Creme de avelã",
+          "price": 0,
+          "image": "assets/img/creme-avela.png"
+        },
+        {
+          "id": "creme_morango",
+          "name": "Creme de morango",
+          "price": 0,
+          "image": "assets/img/creme_morango.png"
+        },
+        {
+          "id": "disqueti",
+          "name": "Disqueti",
+          "price": 0,
+          "image": "assets/img/disqueti.png"
+        },
+        {
+          "id": "gotas_choc",
+          "name": "Gotas de chocolate",
+          "price": 0,
+          "image": "assets/img/gotas_de_chocolate.png"
+        },
+        {
+          "id": "granola",
+          "name": "Granola",
+          "price": 0,
+          "image": "assets/img/granola.png"
+        },
+        {
+          "id": "leite_cond",
+          "name": "Leite condensado",
+          "price": 0,
+          "image": "assets/img/leite_condensado.png"
+        },
+        {
+          "id": "leite_po",
+          "name": "Leite em pó",
+          "price": 0,
+          "image": "assets/img/leite_em_po.png"
+        },
+        {
+          "id": "manga",
+          "name": "Manga",
+          "price": 0,
+          "image": "assets/img/manga.png"
+        },
+        {
+          "id": "pacoca",
+          "name": "Paçoca",
+          "price": 0,
+          "image": "assets/img/pacoca.png"
+        },
+        {
+          "id": "sucrilhos",
+          "name": "Sucrilhos",
+          "price": 0,
+          "image": "assets/img/sucrilhos.png"
+        }
+      ]
+    },
+    {
+      "id": "turbine",
+      "title": "Turbine seu açaí",
+      "subtitle": "Opcional (pode adicionar quantos quiser)",
+      "required": false,
+      "min": 0,
+      "max": 50,
+      "options": [
+        {
+          "id": "turb_granola",
+          "name": "Granola",
+          "price": 2.0,
+          "image": "assets/img/granola.png"
+        },
+        {
+          "id": "turb_ninho",
+          "name": "Leite Ninho",
+          "price": 3.0,
+          "image": "assets/img/leite_ninho.png"
+        },
+        {
+          "id": "turb_batom",
+          "name": "Batom",
+          "price": 4.0,
+          "image": "assets/img/batom.png"
+        },
+        {
+          "id": "turb_bis_preto",
+          "name": "Bis Preto",
+          "price": 3.0,
+          "image": "assets/img/bis_preto.png"
+        },
+        {
+          "id": "turb_cookies",
+          "name": "Cookies",
+          "price": 2.0,
+          "image": "assets/img/cokies.png"
+        },
+        {
+          "id": "turb_ovomaltine",
+          "name": "OvoMaltine",
+          "price": 5.0,
+          "image": "assets/img/ovomaltine.png"
+        },
+        {
+          "id": "turb_coco_ralado",
+          "name": "Coco Ralado",
+          "price": 4.0,
+          "image": "assets/img/coco_ralado.png"
+        },
+        {
+          "id": "turb_diamante_negro",
+          "name": "Diamante Negro",
+          "price": 3.0,
+          "image": "assets/img/diamante_negro.png"
+        },
+        {
+          "id": "turb_ferrero",
+          "name": "Ferrero",
+          "price": 4.0,
+          "image": "assets/img/ferrero.png"
+        },
+        {
+          "id": "turb_kinder_bueno",
+          "name": "Kinder Bueno",
+          "price": 7.0,
+          "image": "assets/img/kinder_bueno.png"
+        },
+        {
+          "id": "turb_kitkat",
+          "name": "Kit Kat",
+          "price": 5.0,
+          "image": "assets/img/kit_kat.png"
+        },
+        {
+          "id": "turb_morango",
+          "name": "Morango",
+          "price": 3.0,
+          "image": "assets/img/morango.png"
+        },
+        {
+          "id": "turb_nutella",
+          "name": "Nutella",
+          "price": 4.0,
+          "image": "assets/img/nutella.png"
+        },
+        {
+          "id": "turb_oreo",
+          "name": "Oreo",
+          "price": 2.0,
+          "image": "assets/img/oreo.png"
+        }
+      ]
+    },
+    {
+      "id": "acompanhamentos_5",
+      "title": "Acompanhamentos",
+      "subtitle": "Escolha 5 acompanhamentos (obrigatório)",
+      "required": true,
+      "min": 5,
+      "max": 5,
+      "options": [
+        {
+          "id": "abacaxi",
+          "name": "Abacaxi",
+          "price": 0,
+          "image": "assets/img/abacaxi.png"
+        },
+        {
+          "id": "bala_goma",
+          "name": "Bala de Goma",
+          "price": 0,
+          "image": "assets/img/bala_goma.png"
+        },
+        {
+          "id": "banana",
+          "name": "Banana",
+          "price": 0,
+          "image": "assets/img/banana.png"
+        },
+        {
+          "id": "choco_ball",
+          "name": "Choco Ball",
+          "price": 0,
+          "image": "assets/img/chocobal.png"
+        },
+        {
+          "id": "creme_branco",
+          "name": "Creme branco",
+          "price": 0,
+          "image": "assets/img/creme_branco.png"
+        },
+        {
+          "id": "creme_avela",
+          "name": "Creme de avelã",
+          "price": 0,
+          "image": "assets/img/creme-avela.png"
+        },
+        {
+          "id": "creme_morango",
+          "name": "Creme de morango",
+          "price": 0,
+          "image": "assets/img/creme_morango.png"
+        },
+        {
+          "id": "disqueti",
+          "name": "Disqueti",
+          "price": 0,
+          "image": "assets/img/disqueti.png"
+        },
+        {
+          "id": "gotas_choc",
+          "name": "Gotas de chocolate",
+          "price": 0,
+          "image": "assets/img/gotas_de_chocolate.png"
+        },
+        {
+          "id": "granola",
+          "name": "Granola",
+          "price": 0,
+          "image": "assets/img/granola.png"
+        },
+        {
+          "id": "leite_cond",
+          "name": "Leite condensado",
+          "price": 0,
+          "image": "assets/img/leite_condensado.png"
+        },
+        {
+          "id": "leite_po",
+          "name": "Leite em pó",
+          "price": 0,
+          "image": "assets/img/leite_em_po.png"
+        },
+        {
+          "id": "manga",
+          "name": "Manga",
+          "price": 0,
+          "image": "assets/img/manga.png"
+        },
+        {
+          "id": "pacoca",
+          "name": "Paçoca",
+          "price": 0,
+          "image": "assets/img/pacoca.png"
+        },
+        {
+          "id": "sucrilhos",
+          "name": "Sucrilhos",
+          "price": 0,
+          "image": "assets/img/sucrilhos.png"
+        }
+      ]
+    },
+    {
+      "id": "acompanhamentos_8",
+      "title": "Acompanhamentos",
+      "subtitle": "Escolha 8 acompanhamentos (obrigatório)",
+      "required": true,
+      "min": 8,
+      "max": 8,
+      "options": [
+        {
+          "id": "abacaxi",
+          "name": "Abacaxi",
+          "price": 0,
+          "image": "assets/img/abacaxi.png"
+        },
+        {
+          "id": "bala_goma",
+          "name": "Bala de Goma",
+          "price": 0,
+          "image": "assets/img/bala_goma.png"
+        },
+        {
+          "id": "banana",
+          "name": "Banana",
+          "price": 0,
+          "image": "assets/img/banana.png"
+        },
+        {
+          "id": "choco_ball",
+          "name": "Choco Ball",
+          "price": 0,
+          "image": "assets/img/chocobal.png"
+        },
+        {
+          "id": "creme_branco",
+          "name": "Creme branco",
+          "price": 0,
+          "image": "assets/img/creme_branco.png"
+        },
+        {
+          "id": "creme_avela",
+          "name": "Creme de avelã",
+          "price": 0,
+          "image": "assets/img/creme-avela.png"
+        },
+        {
+          "id": "creme_morango",
+          "name": "Creme de morango",
+          "price": 0,
+          "image": "assets/img/creme_morango.png"
+        },
+        {
+          "id": "disqueti",
+          "name": "Disqueti",
+          "price": 0,
+          "image": "assets/img/disqueti.png"
+        },
+        {
+          "id": "gotas_choc",
+          "name": "Gotas de chocolate",
+          "price": 0,
+          "image": "assets/img/gotas_de_chocolate.png"
+        },
+        {
+          "id": "granola",
+          "name": "Granola",
+          "price": 0,
+          "image": "assets/img/granola.png"
+        },
+        {
+          "id": "leite_cond",
+          "name": "Leite condensado",
+          "price": 0,
+          "image": "assets/img/leite_condensado.png"
+        },
+        {
+          "id": "leite_po",
+          "name": "Leite em pó",
+          "price": 0,
+          "image": "assets/img/leite_em_po.png"
+        },
+        {
+          "id": "manga",
+          "name": "Manga",
+          "price": 0,
+          "image": "assets/img/manga.png"
+        },
+        {
+          "id": "pacoca",
+          "name": "Paçoca",
+          "price": 0,
+          "image": "assets/img/pacoca.png"
+        },
+        {
+          "id": "sucrilhos",
+          "name": "Sucrilhos",
+          "price": 0,
+          "image": "assets/img/sucrilhos.png"
+        }
+      ]
+    },
+    {
+      "id": "acompanhamentos_12",
+      "title": "Acompanhamentos",
+      "subtitle": "Escolha 12 acompanhamentos (obrigatório)",
+      "required": true,
+      "min": 12,
+      "max": 12,
+      "options": [
+        {
+          "id": "abacaxi",
+          "name": "Abacaxi",
+          "price": 0,
+          "image": "assets/img/abacaxi.png"
+        },
+        {
+          "id": "bala_goma",
+          "name": "Bala de Goma",
+          "price": 0,
+          "image": "assets/img/bala_goma.png"
+        },
+        {
+          "id": "banana",
+          "name": "Banana",
+          "price": 0,
+          "image": "assets/img/banana.png"
+        },
+        {
+          "id": "choco_ball",
+          "name": "Choco Ball",
+          "price": 0,
+          "image": "assets/img/chocobal.png"
+        },
+        {
+          "id": "creme_branco",
+          "name": "Creme branco",
+          "price": 0,
+          "image": "assets/img/creme_branco.png"
+        },
+        {
+          "id": "creme_avela",
+          "name": "Creme de avelã",
+          "price": 0,
+          "image": "assets/img/creme-avela.png"
+        },
+        {
+          "id": "creme_morango",
+          "name": "Creme de morango",
+          "price": 0,
+          "image": "assets/img/creme_morango.png"
+        },
+        {
+          "id": "disqueti",
+          "name": "Disqueti",
+          "price": 0,
+          "image": "assets/img/disqueti.png"
+        },
+        {
+          "id": "gotas_choc",
+          "name": "Gotas de chocolate",
+          "price": 0,
+          "image": "assets/img/gotas_de_chocolate.png"
+        },
+        {
+          "id": "granola",
+          "name": "Granola",
+          "price": 0,
+          "image": "assets/img/granola.png"
+        },
+        {
+          "id": "leite_cond",
+          "name": "Leite condensado",
+          "price": 0,
+          "image": "assets/img/leite_condensado.png"
+        },
+        {
+          "id": "leite_po",
+          "name": "Leite em pó",
+          "price": 0,
+          "image": "assets/img/leite_em_po.png"
+        },
+        {
+          "id": "manga",
+          "name": "Manga",
+          "price": 0,
+          "image": "assets/img/manga.png"
+        },
+        {
+          "id": "pacoca",
+          "name": "Paçoca",
+          "price": 0,
+          "image": "assets/img/pacoca.png"
+        },
+        {
+          "id": "sucrilhos",
+          "name": "Sucrilhos",
+          "price": 0,
+          "image": "assets/img/sucrilhos.png"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "promo_acai_550",
+      "name": "Açaí 550ml",
+      "description": "Top 3 dos mais vendidos da nossa loja com uma super promo pra você.",
+      "price": 14.99,
+      "image": "assets/img/acai_550ml.png",
+      "category": "🔥 DEU A LOUCA NO BENTO",
+      "featured": true,
+      "optionGroupIds": [
+        "acompanhamentos",
+        "turbine"
+      ],
+      "oldPrice": 22.9
+    },
+    {
+      "id": "promo_combo_3_550",
+      "name": "3 Açaí's 550ml",
+      "description": "Combo família. Você leva 3 copos de 550ml com um super desconto.",
+      "price": 36.9,
+      "image": "assets/img/3_acai_550ml.png",
+      "category": "🔥 DEU A LOUCA NO BENTO",
+      "featured": true,
+      "optionGroupIds": [
+        "acompanhamentos",
+        "turbine"
+      ],
+      "oldPrice": 68.7
+    },
+    {
+      "id": "acai_330_puro",
+      "name": "Açaí 330ml (PURO)",
+      "description": "Açaí no copo • escolha 3 acompanhamentos",
+      "price": 10.99,
+      "image": "assets/img/acai_330ml_puro.png",
+      "category": "Açaís no copo",
+      "featured": true,
+      "optionGroupIds": [
+        "acompanhamentos",
+        "turbine"
+      ]
+    },
+    {
+      "id": "acai_180_kids",
+      "name": "Açaí 180ml (KIDS)",
+      "description": "Açaí no copo • escolha 3 acompanhamentos",
+      "price": 4.99,
+      "image": "assets/img/acai_180ml.png",
+      "category": "Açaís no copo",
+      "featured": true,
+      "optionGroupIds": [
+        "acompanhamentos",
+        "turbine"
+      ]
+    },
+    {
+      "id": "acai_770",
+      "name": "Açaí 770ml",
+      "description": "Açaí no copo • escolha 3 acompanhamentos",
+      "price": 18.99,
+      "image": "assets/img/acai-770ml.png",
+      "category": "Açaís no copo",
+      "featured": false,
+      "optionGroupIds": [
+        "acompanhamentos",
+        "turbine"
+      ]
+    },
+    {
+      "id": "acai_monster_1l",
+      "name": "Açaí Monster 1L",
+      "description": "Açaí no copo • escolha 3 acompanhamentos",
+      "price": 27.99,
+      "image": "assets/img/acai_monster_1l.png",
+      "category": "Açaís no copo",
+      "featured": false,
+      "optionGroupIds": [
+        "acompanhamentos",
+        "turbine"
+      ]
+    },
+    {
+      "id": "bento_napolitano_550",
+      "name": "Bento Napolitano 550ml",
+      "description": "A combinação perfeita de açaí, frozen grego e morango e cupuaçu!",
+      "price": 15.99,
+      "image": "assets/img/bento_napolitano_550ml.png",
+      "category": "Açaís no copo",
+      "featured": false,
+      "optionGroupIds": [
+        "acompanhamentos",
+        "turbine"
+      ]
+    },
+    {
+      "id": "barca_crush",
+      "name": "Barca Crush",
+      "description": "Embalagem em formato de coração de aprox. 400g com até 5 acompanhamentos grátis de sua escolha. Item especial para surpreender a(o) namorada(o).",
+      "price": 16.99,
+      "image": "assets/img/barca_crush.png",
+      "category": "BARCAS DO BENTO",
+      "featured": false,
+      "optionGroupIds": [
+        "acompanhamentos_5",
+        "turbine"
+      ]
+    },
+    {
+      "id": "barca_acai_m",
+      "name": "Barca de Açaí (M)",
+      "description": "Barca de Açaí com aprox. 1kg com até 8 acompanhamentos grátis de sua escolha.",
+      "price": 37.9,
+      "image": "assets/img/barca_acai_m.png",
+      "category": "BARCAS DO BENTO",
+      "featured": false,
+      "optionGroupIds": [
+        "acompanhamentos_8",
+        "turbine"
+      ]
+    },
+    {
+      "id": "barca_acai_g",
+      "name": "Barca De Açaí (G)",
+      "description": "Barca de Açaí com aprox. 2kg com até 12 acompanhamento grátis de sua escolha.",
+      "price": 65.9,
+      "image": "assets/img/barca_acai_g.png",
+      "category": "BARCAS DO BENTO",
+      "featured": false,
+      "optionGroupIds": [
+        "acompanhamentos_12",
+        "turbine"
+      ]
+    },
+    {
+      "id": "coca_lata_350ml",
+      "name": "Coca Lata 350ml",
+      "description": "",
+      "price": 5.0,
+      "image": "assets/img/coca_350ml.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    },
+    {
+      "id": "fruki_lata_350ml",
+      "name": "Fruki Lata 350ml",
+      "description": "",
+      "price": 4.0,
+      "image": "assets/img/fruki_350ml.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    },
+    {
+      "id": "sprite_lata_350ml",
+      "name": "Sprite Lata 350ml",
+      "description": "",
+      "price": 5.0,
+      "image": "assets/img/sprite_350ml.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    },
+    {
+      "id": "fanta_laranja_350ml",
+      "name": "Fanta laranja 350ml",
+      "description": "",
+      "price": 5.0,
+      "image": "assets/img/fanta_350ml.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    },
+    {
+      "id": "agua_com_gas_500ml",
+      "name": "Agua C/ 500ml",
+      "description": "",
+      "price": 3.0,
+      "image": "assets/img/agua_c_500ml.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    },
+    {
+      "id": "agua_sem_gas_500ml",
+      "name": "Agua S/ 500ml",
+      "description": "",
+      "price": 3.0,
+      "image": "assets/img/agua_s_500ml.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    },
+    {
+      "id": "del_vale_uva_290ml",
+      "name": "Del Vale Uva 290ml",
+      "description": "",
+      "price": 5.0,
+      "image": "assets/img/del_vale_uva.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    },
+    {
+      "id": "red_bull_250ml",
+      "name": "Red Bull 250ml",
+      "description": "",
+      "price": 12.0,
+      "image": "assets/img/red_bull.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    },
+    {
+      "id": "coca_2l",
+      "name": "Coca 2l",
+      "description": "",
+      "price": 15.0,
+      "image": "assets/img/coca_2l.png",
+      "featured": false,
+      "optionGroupIds": [],
+      "category": "Bebidas"
+    }
+  ]
+}
